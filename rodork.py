@@ -17,15 +17,11 @@ from modules.output_formatter import (
 )
 
 BANNER = r"""
-  ____       ____            __  
- / __ \____ / __ \____  ____/ /__
-/ /_/ / __ / / / / __ \/ __  / _ \
-/ _, _/ /_/ / /_/ / /_/ / /_/ /  __/
-/_/ |_|\____/_____/\____/\__,_/\___/
-
- Robotics Threat Intelligence Tool
+╔═══╗╔═══╗╔═══╗╔═══╗╔═══╗╔═══╗
+║ R ║║ o ║║ D ║║ o ║║ r ║║ k ║
+╚═══╝╚═══╝╚═══╝╚═══╝╚═══╝╚═══╝
+Robotics Threat Intelligence Tool
 """
-
 class RoDorkShell(cmd.Cmd):
     intro = "\nType 'help' for commands. 'exit' to quit.\n"
     prompt = "rodork> "
