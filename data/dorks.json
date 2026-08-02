@@ -1,0 +1,380 @@
+[
+  {
+    "id": "d001",
+    "query": "port:11311",
+    "category": "protocol",
+    "description": "ROS master port (default 11311)",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d002",
+    "query": "port:9090 \"ROS\"",
+    "category": "protocol",
+    "description": "ROS websocket bridge",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d003",
+    "query": "\"ROS_MASTER_URI\"",
+    "category": "config",
+    "description": "ROS master URI environment variable",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d004",
+    "query": "\"Robot Operating System\"",
+    "category": "technology",
+    "description": "General ROS banners",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d005",
+    "query": "product:\"ROS\"",
+    "category": "technology",
+    "description": "Shodan product tag for ROS",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d006",
+    "query": "\"ABB Robotics\"",
+    "category": "manufacturer",
+    "description": "ABB robotics devices",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d007",
+    "query": "\"FANUC\" \"robot\"",
+    "category": "manufacturer",
+    "description": "FANUC industrial robots",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d008",
+    "query": "\"KUKA\" \"robot\"",
+    "category": "manufacturer",
+    "description": "KUKA robot controllers",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d009",
+    "query": "\"Universal Robots\" \"dashboard\"",
+    "category": "manufacturer",
+    "description": "UR cobot dashboard",
+    "risk_level": "critical",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d010",
+    "query": "\"Yaskawa Motoman\"",
+    "category": "manufacturer",
+    "description": "Yaskawa industrial robots",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d011",
+    "query": "\"Dobot\" \"robot\"",
+    "category": "manufacturer",
+    "description": "Dobot collaborative arms",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d012",
+    "query": "\"TM Robot\"",
+    "category": "manufacturer",
+    "description": "Techman cobots",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d013",
+    "query": "\"Franka Emika\"",
+    "category": "manufacturer",
+    "description": "Franka Emika Panda arm",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d014",
+    "query": "\"Kinova\" \"robot\"",
+    "category": "manufacturer",
+    "description": "Kinova robotic arms",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d015",
+    "query": "\"Gazebo\" \"simulation\"",
+    "category": "simulation",
+    "description": "Gazebo simulation servers",
+    "risk_level": "low",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d016",
+    "query": "\"Webots\" \"robot\"",
+    "category": "simulation",
+    "description": "Webots simulator",
+    "risk_level": "low",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d017",
+    "query": "\"AWS RoboMaker\"",
+    "category": "cloud",
+    "description": "AWS RoboMaker service",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d018",
+    "query": "\"Foxglove\" \"studio\"",
+    "category": "tool",
+    "description": "Foxglove visualization",
+    "risk_level": "low",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d019",
+    "query": "\"robot\" \"RTSP\"",
+    "category": "protocol",
+    "description": "Robot RTSP streams",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d020",
+    "query": "\"Modbus\" \"robot\"",
+    "category": "protocol",
+    "description": "Modbus devices on robots",
+    "risk_level": "critical",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d021",
+    "query": "\"Cloud Robotics\" \"service\"",
+    "category": "cloud",
+    "description": "Cloud robotics platforms",
+    "risk_level": "medium",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "d022",
+    "query": "\"rosbridge\"",
+    "category": "technology",
+    "description": "rosbridge websocket server",
+    "risk_level": "high",
+    "source": "original",
+    "date_added": "2025-01-01"
+  },
+  {
+    "id": "n001",
+    "query": "\"Fetch Robotics\"",
+    "category": "manufacturer",
+    "description": "Fetch logistics robots",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n002",
+    "query": "\"Locus Robotics\"",
+    "category": "manufacturer",
+    "description": "Locus warehouse AMRs",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n003",
+    "query": "\"MiR\" robot",
+    "category": "manufacturer",
+    "description": "Mobile Industrial Robots (MiR100/200/...)",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n004",
+    "query": "\"Omron\" \"Adept\" robot",
+    "category": "manufacturer",
+    "description": "Omron Adept industrial robots",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n005",
+    "query": "\"Stäubli\" robot",
+    "category": "manufacturer",
+    "description": "Stäubli industrial robots",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n006",
+    "query": "\"Epson\" robot",
+    "category": "manufacturer",
+    "description": "Epson SCARA/6-axis robots",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n007",
+    "query": "\"Denso\" robot",
+    "category": "manufacturer",
+    "description": "Denso Wave industrial robots",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n008",
+    "query": "\"Kawasaki\" robot",
+    "category": "manufacturer",
+    "description": "Kawasaki Robotics",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n009",
+    "query": "\"Mitsubishi\" \"Melfa\"",
+    "category": "manufacturer",
+    "description": "Mitsubishi Electric Melfa robots",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n010",
+    "query": "\"Nachi\" robot",
+    "category": "manufacturer",
+    "description": "Nachi-Fujikoshi robots",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n011",
+    "query": "\"ROS2\" \"DDS\"",
+    "category": "technology",
+    "description": "ROS2 DDS middleware discovery",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n012",
+    "query": "\"eProsima\" \"Fast DDS\"",
+    "category": "technology",
+    "description": "eProsima Fast DDS (ROS2 default)",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n013",
+    "query": "\"MoveIt\" \"planning\"",
+    "category": "tool",
+    "description": "MoveIt motion planning servers",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n014",
+    "query": "\"Robot Web Tools\"",
+    "category": "tool",
+    "description": "roslibjs/robotwebtools interfaces",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n015",
+    "query": "\"Foxglove\" port:8765",
+    "category": "tool",
+    "description": "Foxglove Studio default data port",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n016",
+    "query": "\"RMF\"",
+    "category": "technology",
+    "description": "Open-RMF (Robotics Middleware Framework)",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n017",
+    "query": "\"Micro-ROS\"",
+    "category": "technology",
+    "description": "micro-ROS on microcontrollers",
+    "risk_level": "low",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n018",
+    "query": "\"RoboDK\"",
+    "category": "simulation",
+    "description": "RoboDK offline programming",
+    "risk_level": "medium",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n019",
+    "query": "\"Robotiq\" \"gripper\"",
+    "category": "accessory",
+    "description": "Robotiq gripper web interfaces",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  },
+  {
+    "id": "n020",
+    "query": "\"OnRobot\"",
+    "category": "accessory",
+    "description": "OnRobot end‑effector web config",
+    "risk_level": "high",
+    "source": "new",
+    "date_added": "2026-08-01"
+  }
+]
