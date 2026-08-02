@@ -13,6 +13,7 @@ Robotics adoption is exploding. Security isn't keeping up. Production robot cont
 - Local caching to avoid duplicate API calls
 - User‑custom dork addition and persistence
 - Non‑interactive mode for scripting
+### Screenshot
 <img width="746" height="411" alt="help" src="https://github.com/user-attachments/assets/c96760ee-d228-4c95-8565-04116fe25d58" />
 
 
