@@ -1,6 +1,9 @@
 # RoDork - Hack Real Robots !!!
 RoDork searches for exposed robotics systems on the internet. It comes with 50+ ready‑to‑use dorks and an interactive shell to filter, export, and extend the dork library.
 
+## Why This Exists
+Robotics adoption is exploding. Security isn't keeping up. Production robot controllers, surgical arms, and warehouse automation systems are sitting on the public internet — unauthenticated, default credentials, live camera feeds. Manual Shodan queries are slow and miss critical exposures. RoDork makes this research systematic, repeatable, and actionable.
+
 ## Features
 - Interactive command‑line interface (cmd module)
 - Batch search by dork ID, category, or raw query
