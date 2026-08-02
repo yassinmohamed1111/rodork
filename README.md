@@ -5,7 +5,7 @@ RoDork searches for exposed robotics systems on the internet. It comes with 50+ 
 Robotics adoption is exploding. Security isn't keeping up. Production robot controllers, surgical arms, and warehouse automation systems are sitting on the public internet — unauthenticated, default credentials, live camera feeds. Manual Shodan queries are slow and miss critical exposures. RoDork makes this research systematic, repeatable, and actionable.
 
 ## Features
-- Interactive command‑line interface (cmd module)
+- Interactive command‑line interface
 - Batch search by dork ID, category, or raw query
 - Powerful filtering (country, risk, robot type, technology, port)
 - Risk assessment heuristics (critical/high/medium/low)
