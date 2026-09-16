@@ -4,7 +4,7 @@ setup(
     name='rodork',
     version='1.0.0',
     description='Robotics Threat Intelligence CLI using Shodan',
-    author='Your Name',
+    author='Yassin Mohamed',
     packages=find_packages(),
     install_requires=[
         'shodan',
